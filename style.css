@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Webpage</title>
+    <style>
+         {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: gray;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: black;
+            padding: 24px 40px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: white;
+        }
+
+        .home-content {
+            padding: 20px;
+        }
+
+        .home-content h1 {
+            color: red;
+        }
+
+        .home-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .brand {
+        color: black;
+        text-align="center";
+        padding:24px 22px;
+        font-size: 28px;
+        font-family: 'montserrat',sans-seri;
+        background-image: url("background.JPG");
+        }
+        </style>
+         
+</head>
+
+<body>     
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Home</a>
+        <div class="brand"="margin-left:auto;">Future Invo Solutions
+         
+        </div>
+    </nav>
+
+    <!-- Home Content Section -->
+    <div class="home-content">
+        <h1>Welcome to My Website</h1>
+        <p>This is the Home page where you can write about your website, services, or any introduction.</p>
+        <p>Feel free to customize this section by adding images, text, or links.</p>
+    </div>
+    
+
+</body>
+
+</html>
